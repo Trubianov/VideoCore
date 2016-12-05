@@ -12,9 +12,11 @@
 		3A7D681B1DF5942700F9E634 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D68191DF5942700F9E634 /* Main.storyboard */; };
 		3A7D681D1DF5942700F9E634 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D681C1DF5942700F9E634 /* Assets.xcassets */; };
 		3A7D68201DF5942700F9E634 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A7D681E1DF5942700F9E634 /* LaunchScreen.storyboard */; };
+		43315938002705BA474A6798 /* Pods_VideoCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 025E03EE92A13BA9D294D0BF /* Pods_VideoCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		025E03EE92A13BA9D294D0BF /* Pods_VideoCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A7D68121DF5942700F9E634 /* VideoCore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoCore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A7D68151DF5942700F9E634 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A7D68171DF5942700F9E634 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		3A7D681C1DF5942700F9E634 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A7D681F1DF5942700F9E634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A7D68211DF5942700F9E634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8B6A2FFFB8FDF6C4C38453E /* Pods-VideoCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoCore.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoCore/Pods-VideoCore.release.xcconfig"; sourceTree = "<group>"; };
+		BEB48A2FA5E4498B0B9D5DA9 /* Pods-VideoCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoCore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoCore/Pods-VideoCore.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43315938002705BA474A6798 /* Pods_VideoCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				3A7D68141DF5942700F9E634 /* VideoCore */,
 				3A7D68131DF5942700F9E634 /* Products */,
+				E0EB081F68F7A95ECF61D3DD /* Pods */,
+				4790C69FC915F52E805E50D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,23 @@
 			path = VideoCore;
 			sourceTree = "<group>";
 		};
+		4790C69FC915F52E805E50D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				025E03EE92A13BA9D294D0BF /* Pods_VideoCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0EB081F68F7A95ECF61D3DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEB48A2FA5E4498B0B9D5DA9 /* Pods-VideoCore.debug.xcconfig */,
+				B8B6A2FFFB8FDF6C4C38453E /* Pods-VideoCore.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A7D68241DF5942700F9E634 /* Build configuration list for PBXNativeTarget "VideoCore" */;
 			buildPhases = (
+				0755FB900F5CBD06A03C1626 /* [CP] Check Pods Manifest.lock */,
 				3A7D680E1DF5942700F9E634 /* Sources */,
 				3A7D680F1DF5942700F9E634 /* Frameworks */,
 				3A7D68101DF5942700F9E634 /* Resources */,
+				68DF5CB9C59B6352446C4898 /* [CP] Embed Pods Frameworks */,
+				66897FE3049D81FB35F90BBB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,6 +158,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0755FB900F5CBD06A03C1626 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		66897FE3049D81FB35F90BBB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoCore/Pods-VideoCore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68DF5CB9C59B6352446C4898 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoCore/Pods-VideoCore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3A7D680E1DF5942700F9E634 /* Sources */ = {
@@ -259,6 +334,7 @@
 		};
 		3A7D68251DF5942700F9E634 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEB48A2FA5E4498B0B9D5DA9 /* Pods-VideoCore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 68UNY3942R;
@@ -272,6 +348,7 @@
 		};
 		3A7D68261DF5942700F9E634 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8B6A2FFFB8FDF6C4C38453E /* Pods-VideoCore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 68UNY3942R;
@@ -302,6 +379,7 @@
 				3A7D68261DF5942700F9E634 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

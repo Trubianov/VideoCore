@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0810"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3A7D68111DF5942700F9E634"
-               BuildableName = "VideoCore.app"
-               BlueprintName = "VideoCore"
-               ReferencedContainer = "container:VideoCore.xcodeproj">
+               BlueprintIdentifier = "C46B2867D399FCCFD62A2E0242AA2D38"
+               BuildableName = "Pods_VideoCore.framework"
+               BlueprintName = "Pods-VideoCore"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -42,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3A7D68111DF5942700F9E634"
-            BuildableName = "VideoCore.app"
-            BlueprintName = "VideoCore"
-            ReferencedContainer = "container:VideoCore.xcodeproj">
+            BlueprintIdentifier = "C46B2867D399FCCFD62A2E0242AA2D38"
+            BuildableName = "Pods_VideoCore.framework"
+            BlueprintName = "Pods-VideoCore"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -61,15 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3A7D68111DF5942700F9E634"
-            BuildableName = "VideoCore.app"
-            BlueprintName = "VideoCore"
-            ReferencedContainer = "container:VideoCore.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

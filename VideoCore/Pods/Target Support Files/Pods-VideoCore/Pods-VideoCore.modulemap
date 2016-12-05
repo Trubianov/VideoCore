@@ -1,0 +1,6 @@
+framework module Pods_VideoCore {
+  umbrella header "Pods-VideoCore-umbrella.h"
+
+  export *
+  module * { export * }
+}
